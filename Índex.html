@@ -2,30 +2,96 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nus Pano - Loja de Roupas Street</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nus Pano – Loja de Roupas Street</title>
   <style>
     body {
       font-family: 'Arial Black', Arial, sans-serif;
       background-color: #121212;
       color: #fff;
-      margin: 0; padding: 0;
+
+      margin: 0;
+      padding: 0;
     }
+
     header {
-      background: #222;
+      background-color: #222;
       padding: 20px;
       text-align: center;
-      font-size: 2rem;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      font-weight: 900;
-      border-bottom: 3px solid #ff3c00;
     }
-    .container {
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      background-color: #1a1a1a;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ff4081;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background-image: url('https://images.unsplash.com/photo-1619983081563-430f6360275a'); /* imagem de exemplo */
+      background-size: cover;
+      background-position: center;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #ccc;
+    }
+
+    footer {
+      background-color: #111;
+      text-align: center;
       padding: 20px;
-      max-width: 900px;
-      margin: auto;
+      font-size: 14px;
+      color: #777;
     }
-    .catalog {
-      display: flex;
-      flex-wrap:
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nus Pano</h1>
+  </header>
+
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Produtos</a>
+    <a href="#">Sobre</a>
+    <a href="#">Contato</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Roupa de verdade, nas ruas de verdade.</h2>
+    <p>Estilo urbano direto da quebrada para o mundo.</p>
+  </div>
+
+  <footer>
+    © 2025 Nus Pano – Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
